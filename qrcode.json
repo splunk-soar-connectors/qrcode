@@ -4,31 +4,31 @@
     "description": "Extract Data from QR Codes",
     "type": "information",
     "product_vendor": "OpenCV",
-    "logo": "qrcode.png",
-    "logo_dark": "qrcode_dark.png",
+    "logo": "qrcode.svg",
+    "logo_dark": "qrcode_dark.svg",
     "product_name": "OpenCV",
     "python_version": "3",
     "product_version_regex": ".*",
     "publisher": "Community",
     "contributors": [
         {
-          "name": "import-au"
+            "name": "import-au"
         }
-      ],
+    ],
     "license": "Copyright (c) Community, 2023",
-    "app_version": "1.3.0",
+    "app_version": "1.0.0",
     "utctime_updated": "2023-07-26T17:12:22.159968Z",
     "package_name": "phantom_qrcode",
     "main_module": "qrcode_connector.py",
     "min_phantom_version": "5.3.2.88192",
     "app_wizard_version": "1.0.0",
+    "fips_complaint": false,
     "configuration": {},
     "actions": [
         {
             "action": "test connectivity",
             "identifier": "test_connectivity",
             "description": "Validate the asset configuration for connectivity using supplied configuration",
-            "verbose": "",
             "type": "test",
             "read_only": true,
             "parameters": {},
@@ -39,7 +39,6 @@
             "action": "decode qr code",
             "identifier": "decode_qr_code",
             "description": "Decodes a png containing a QR code",
-            "verbose": "",
             "type": "generic",
             "read_only": true,
             "parameters": {
@@ -51,8 +50,6 @@
                     "contains": [
                         "vault id"
                     ],
-                    "value_list": [],
-                    "default": "",
                     "order": 0,
                     "name": "vault_id"
                 }
@@ -64,19 +61,23 @@
                     "contains": [
                         "vault id"
                     ],
-                    "column_name": "vault_id",
+                    "column_name": "Vault ID",
                     "column_order": 0
                 },
                 {
                     "data_path": "action_result.status",
                     "data_type": "string",
-                    "column_name": "status",
-                    "column_order": 1
+                    "column_name": "Status",
+                    "column_order": 1,
+                    "example_values": [
+                        "success",
+                        "failed"
+                    ]
                 },
                 {
                     "data_path": "action_result.data.*.output",
                     "data_type": "string",
-                    "column_name": "data",
+                    "column_name": "Data",
                     "column_order": 2
                 },
                 {
@@ -105,12 +106,16 @@
             }
         ]
     },
-    "custom_made": true,
-    "directory": "qrcode_842d51af-31b6-49cb-ad43-d0959b0173d7",
-    "version": 1,
-    "appname": "-",
-    "executable": "spawn3",
-    "disabled": false,
-    "copied_from_id": 314,
-    "copied_from_version": "1.2.0"
+    "pip39_dependencies": {
+        "wheel": [
+            {
+                "module": "numpy",
+                "input_file": "wheels/py39/numpy-1.25.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+                "module": "opencv_python_headless",
+                "input_file": "wheels/py3/opencv_python_headless-4.8.0.74-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            }
+        ]
+    }
 }
