@@ -4,8 +4,8 @@
     "description": "Extract Data from QR Codes",
     "type": "information",
     "product_vendor": "OpenCV",
-    "logo": "qrcode.svg",
-    "logo_dark": "qrcode_dark.svg",
+    "logo": "logo_qrcode.svg",
+    "logo_dark": "logo_qrcode_dark.svg",
     "product_name": "OpenCV",
     "python_version": "3",
     "product_version_regex": ".*",
@@ -15,7 +15,7 @@
             "name": "import-au"
         }
     ],
-    "license": "Copyright (c) Community, 2023",
+    "license": "Copyright (c) Splunk Community, 2023",
     "app_version": "1.0.0",
     "utctime_updated": "2023-07-26T17:12:22.159968Z",
     "package_name": "phantom_qrcode",
