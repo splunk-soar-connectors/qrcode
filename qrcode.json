@@ -9,7 +9,7 @@
     "product_name": "OpenCV",
     "python_version": "3",
     "product_version_regex": ".*",
-    "publisher": "Community",
+    "publisher": "Splunk Community",
     "contributors": [
         {
             "name": "import-au"
