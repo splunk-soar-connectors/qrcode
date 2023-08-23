@@ -1,6 +1,6 @@
 [comment]: # 'File: README.md'
 [comment]: #
-[comment]: # 'Copyright (c) Splunk Community, 2023'
+[comment]: # 'Copyright (c) Splunk, 2023'
 [comment]: #
 [comment]: # 'Licensed under the Apache License, Version 2.0 (the "License");'
 [comment]: # 'you may not use this file except in compliance with the License.'
