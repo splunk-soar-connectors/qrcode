@@ -40,7 +40,7 @@
             "identifier": "decode_qr_code",
             "description": "Decodes a png containing a QR code",
             "type": "generic",
-            "read_only": true,
+            "read_only": false,
             "parameters": {
                 "vault_id": {
                     "description": "Vault ID of the PNG file",
