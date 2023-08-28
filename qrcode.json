@@ -38,7 +38,7 @@
         {
             "action": "decode qr code",
             "identifier": "decode_qr_code",
-            "description": "Decodes a png containing a QR code",
+            "description": "Decodes a PNG containing a QR code",
             "type": "generic",
             "read_only": false,
             "parameters": {
