@@ -102,7 +102,7 @@
     "pip3_dependencies": {
         "pypi": [
             {
-                "module": "opencv-python-headless"
+                "module": "opencv-python-headless==4.8.0.74"
             }
         ]
     }
