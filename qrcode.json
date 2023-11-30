@@ -100,26 +100,9 @@
         }
     ],
     "pip3_dependencies": {
-        "wheel": [
+        "pypi": [
             {
-                "module": "numpy",
-                "input_file": "wheels/py36/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl"
-            },
-            {
-                "module": "opencv_python_headless",
-                "input_file": "wheels/py36/opencv_python_headless-4.8.0.74-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-            }
-        ]
-    },
-    "pip39_dependencies": {
-        "wheel": [
-            {
-                "module": "numpy",
-                "input_file": "wheels/py39/numpy-1.25.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-            },
-            {
-                "module": "opencv_python_headless",
-                "input_file": "wheels/py3/opencv_python_headless-4.8.0.74-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "module": "opencv-python-headless"
             }
         ]
     }
