@@ -98,12 +98,5 @@
             },
             "versions": "EQ(*)"
         }
-    ],
-    "pip39_dependencies": {
-        "pypi": [
-            {
-                "module": "opencv-python-headless==4.8.0.74"
-            }
-        ]
-    }
+    ]
 }
